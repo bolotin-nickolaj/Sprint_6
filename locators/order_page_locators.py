@@ -26,7 +26,7 @@ class OrderPageLocators:
     # Локатор для кнопки ДА
     button_yes = (By.XPATH, "//div[@class='Order_Modal__YZ-d3']/div[@class='Order_Buttons__1xGrp']/button[@class='Button_Button__ra12g Button_Middle__1CSJM']")
 
-    # Локатор для текста СтатусOrder_ModalHeader__3FDaJ
+    # Локатор для текста Статус
     order_status = (By.XPATH, "//div[@class='Order_ModalHeader__3FDaJ']")
     button_show_status = (By.XPATH, "//div[@class='Order_Modal__YZ-d3']/div[@class='Order_NextButton__1_rCA']/button[@class='Button_Button__ra12g Button_Middle__1CSJM']")
 

@@ -4,7 +4,6 @@ import pytest
 from pages.order_page import OrderPage
 from urls import Url
 from constants import Constant
-from locators.order_page_locators import OrderPageLocators
 
 class TestOrderPage:
     @allure.story("Страница заказа")
